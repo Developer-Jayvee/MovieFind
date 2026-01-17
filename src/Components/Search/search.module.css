@@ -1,0 +1,31 @@
+.search-bar{
+    position:relative;
+    width:100%;
+    max-width: 400px;
+    min-width: 300px;
+}
+.search-bar > input {
+    width: 100%;
+    border-radius:40px; 
+    padding-right: 40px;
+    padding-left:20px;
+    height: 40px;
+    border:none;
+    background-color: var(--input-background-color);
+    color:var(--text-color);
+    font-family: var(--secondary-font-family);
+}
+.search-bar > button {
+    position: absolute;
+    right:0;
+    top:0;
+    bottom: 0;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:none;
+    background-color: transparent;
+    color:var(--text-color);
+    /* border-radius: 40px; */
+    
+}

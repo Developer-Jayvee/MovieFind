@@ -1,0 +1,17 @@
+.dashboard{
+    width:100% !important;
+    display:flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    overflow-x: hidden;
+}
+.dashboard > h3 {
+    color:var(--default-text-color);
+    font-size: clamp(24px, 4vw, 48px);
+}
+.dashboard > h1 {
+    color:var(--text-color);
+    font-size:clamp(32px, 5vw, 64px);
+}
